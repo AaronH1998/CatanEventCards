@@ -2,11 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-#bas{
-    color:blue;
-}
-
 html,body, #app{
     height:100%;
     width:100%;
+    font-family: "Caveat";
+    font-size: 24px
+}
+
+@font-face{
+    font-family:"Bad Script";
+    src: local("BadScript-Regular"), url('./fonts/BadScript-Regular.ttf'), format("truetype");
+}
+
+@font-face{
+    font-family:"Euphoria Script";
+    src: local("EuphoriaScript-Regular"), url('./fonts/EuphoriaScript-Regular.ttf'), format("truetype");
+}
+
+@font-face{
+    font-family: "Caveat";
+    src: local("Caveat-Regular"), url('./fonts/Caveat-Regular.ttf'), format("truetype");
 }
